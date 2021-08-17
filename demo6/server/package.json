@@ -1,5 +1,5 @@
 {
-  "name": "demo6",
+  "name": "server",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
@@ -14,9 +14,7 @@
     "bcrypt": "^5.0.1",
     "dotenv": "^10.0.0",
     "express": "^4.17.1",
-    "node-pre-gyp": "^0.11.0",
     "pg": "^8.7.1",
-    "sequelize": "^6.6.5",
-    "sqlite3": "^5.0.2"
+    "sequelize": "^6.6.5"
   }
 }
