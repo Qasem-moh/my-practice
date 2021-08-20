@@ -5,8 +5,8 @@ const supertest=require('supertest')
 const request=supertest(server.app)
 describe('API Server', () => {
 
-    it('handles invalid request not found', () => {
-        const response = request.get('/asd');
+    it('handles invalid request not found', async () => {
+        const response =await request.get('/asd');
         expect(response.status).toEqual(404)
     })
 
